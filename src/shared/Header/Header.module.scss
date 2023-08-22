@@ -1,8 +1,11 @@
+@import '../../styles/variables.scss';
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .wrapper {
@@ -22,7 +25,7 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 25px;
-  color: #4793FF;
+  color: $primary-color;
 }
 
 .change_theme, 
